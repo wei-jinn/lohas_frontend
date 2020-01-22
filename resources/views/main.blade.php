@@ -20,9 +20,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <style>
-
-
-
+       /*write in public/css/app.css*/
     </style>
 </head>
 <body>
@@ -37,6 +35,40 @@
 </ul>
 
 <div class="main">
+
+
+    <img id="banner" src="{{asset('storage/images/image-banner.jpg')}}" >
+
+    <div class="b1-description">
+
+        <p id="text-1">從眾多品牌中 </p>
+        <p id="text-2">脫穎而出</p>
+        <p id="text-3">你想要的任何網站需求， <br>楽活資訊為您呈現！ </p>
+
+    </div>
+
+    <div class="b2-container">
+        <div class="b2-element">
+
+            <p class="b2-content b2-title">顧問諮詢</p>
+            <p class="b2-content">協助顧客歸納需求，企劃架構流程及視覺風格擬定方向</p>
+
+        </div>
+
+        <div class="b2-element">
+
+            <p class="b2-content b2-title">系統開發</p>
+            <p class="b2-content">基本形象或購物功能外，可製作其他網站功能及串接需求資料</p>
+
+        </div>
+
+        <div class="b2-element">
+
+            <p class="b2-content b2-title">視覺設計</p>
+            <p class="b2-content">依客戶需求及產業特質等量身訂做專屬設計風格</p>
+
+        </div>
+    </div>
 
 
 </div>

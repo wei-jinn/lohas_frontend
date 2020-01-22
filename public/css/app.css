@@ -51,6 +51,37 @@ ul.topnav li.left {
 
 }
 
+.b1-description{
+    position: absolute;
+    top: 100px;
+    right: 397px;
+}
+#text-1{
+    width: 168px;
+    height: 42px;
+    font-family: TaipeiSansTCBeta, serif;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+#text-2{
+    width: 248px;
+    height: 82px;
+    font-family: TaipeiSansTCBeta, serif;
+    font-size: 62px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    color: #000000;
+}
+
 
 @media screen and (max-width: 768px) {
     ul.topnav li.left{
