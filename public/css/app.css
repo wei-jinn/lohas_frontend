@@ -83,12 +83,165 @@ ul.topnav li.left {
 }
 
 
+#text-3{
+    width: 208px;
+    height: 56px;
+    font-family: TaipeiSansTCBeta, serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.b2-container{
+    float: inherit;
+    margin-left: 220px;
+}
+
+.b2-element{
+    float: inherit;
+    position: center;
+    margin-left: 130px;
+    margin-top: 50px;
+    margin-block: 100px;
+    text-align: center;
+    width:170px;
+}
+
+.b2-content{
+
+    font-family: TaipeiSansTCBeta, serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.b2-content.b2-title{
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.45;
+}
+.b3-container{
+    float: inherit;
+    margin-top: 70px;
+    margin-left:150px;
+}
+
+
+.b3-image{
+    float: left;
+    width: 570px;
+    height: 400px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-left: 130px;
+}
+
+.b3-description{
+    float: left;
+
+}
+
+.b3-content{
+
+    width: 470px;
+    height: 252px;
+    font-family: TaipeiSansTCBeta, serif;
+    font-size: 16px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.b3-title{
+
+    width: 170px;
+    height: 48px;
+    font-family: TaipeiSansTCBeta, serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+/*.b4-container{*/
+/*    float:inherit;*/
+/*    margin-top: 150px;*/
+/*    margin-left:150px;*/
+/*}*/
+
+/*.b4-element{*/
+/*    float:inherit;*/
+/*}*/
+
+
+.b4-container{
+    float:inherit;
+    margin-top: 150px;
+    margin-left:150px;
+}
+
+.b4-element{
+    float:inherit;
+
+    margin-left: 30px;
+}
+
+.b4-content{
+
+    font-family: TaipeiSansTCBeta, serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.b4-content.b4-title{
+
+}
+
+
 @media screen and (max-width: 768px) {
     ul.topnav li.left{
         float:none;
     }
     ul.topnav li {float: none;
-    visibility: collapse;
+    /*visibility: collapse;*/
     }
+
+    .main{
+        float:none;
+    }
+
+    .b1-description{
+        position: absolute;
+        float: none;
+        top: 0;
+        right: 0;
+
+
+    }
+
+    .b3-image{
+        margin-left: 0;
+    }
+
 
 }

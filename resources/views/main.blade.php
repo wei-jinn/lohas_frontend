@@ -70,6 +70,37 @@
         </div>
     </div>
 
+    <div class="b3-container">
+
+        <div class="b3-description">
+            <p class="b3-title">視覺設計</p>
+            <hr><br>
+            <p class="b3-content">樂活多媒體有限公司坐落於台北，是一支極具創新力的青創團隊。
+                <br><br>
+                著眼於網頁設計規劃，從專業的網路行銷角度替客戶量身打造注重質感的品牌識別，在虛擬世界中尋找人性化溝通的更多可能性。
+                <br><br>
+                以人為本的角度思考，我們注重使用者體驗，從功能規劃到使用動線，盡可能滿足使用者的操作方式，因為我們深信好的網站必須能傳遞情感。</p>
+        </div>
+
+        <div class="b3-image"><img height = "400px" src="storage/images/image-960_670.jpg"></div>
+
+    </div>
+
+    <div class="b4-container">
+
+        <div class="b4-element">
+
+            <div class="b4-image"><img height = "150px" src="storage/images/image-01_green.png"></div>
+
+            <div class="b4-description">
+                <p class="b4-content b4-title">視覺設計</p>
+                <p class="b4-content">著眼於網頁設計規劃，從專業的網路行銷角度替客戶量身打造注重質感的品牌識別，在虛擬世界中尋找人性化溝通的更多可能性。</p>
+            </div>
+        </div>
+
+
+
+    </div>
 
 </div>
 
