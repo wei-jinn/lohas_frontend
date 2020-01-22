@@ -191,31 +191,13 @@ ul.topnav li.left {
 
 .b4-container{
     float:inherit;
-    margin-top: 150px;
-    margin-left:150px;
+
 }
 
 .b4-element{
-    float:inherit;
-
-    margin-left: 30px;
-}
-
-.b4-content{
-
-    font-family: TaipeiSansTCBeta, serif;
-    font-size: 16px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.75;
-    letter-spacing: normal;
-    color: #000000;
-}
-
-.b4-content.b4-title{
 
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -234,8 +216,6 @@ ul.topnav li.left {
         position: absolute;
         float: none;
         top: 0;
-        right: 0;
-
 
     }
 
