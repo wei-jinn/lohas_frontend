@@ -1,0 +1,63 @@
+body {margin: 0;}
+
+#logo-top{
+    height: 60px;
+    width: 49.8px;
+}
+
+#banner{
+    height: 523px;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: inherit;
+    overflow: hidden;
+    background-color: white;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 40px 50px;
+    text-decoration: none;
+    margin: 4px 0;
+    border: 5px aquamarine;
+}
+
+ul.topnav li a:hover
+{
+    background-color: aquamarine;
+
+}
+
+/*ul.topnav li a.active {background-color: aquamarine;}*/
+
+ul.topnav li.left {
+    float: left;
+    margin-left: 378px;
+    margin-block:20px;
+    margin-top: 20px;
+
+}
+
+.main{
+    position: relative;
+    float:left;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    ul.topnav li.left{
+        float:none;
+    }
+    ul.topnav li {float: none;
+    visibility: collapse;
+    }
+
+}
